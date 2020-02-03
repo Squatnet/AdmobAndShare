@@ -1,0 +1,71 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Node2D.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="ShBtn" type="Button" parent="."]
+margin_left = 450.892
+margin_top = 107.949
+margin_right = 497.892
+margin_bottom = 127.949
+rect_scale = Vector2( 3, 3 )
+text = "Share"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="BtnBan" type="Button" parent="CanvasLayer"]
+margin_left = 319.212
+margin_top = 191.527
+margin_right = 456.212
+margin_bottom = 211.527
+rect_scale = Vector2( 3, 3 )
+disabled = true
+toggle_mode = true
+text = "Show / Hide Banner"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BtnInter" type="Button" parent="CanvasLayer"]
+margin_left = 321.667
+margin_top = 275.013
+margin_right = 458.667
+margin_bottom = 295.013
+rect_scale = Vector2( 3, 3 )
+disabled = true
+text = "Show Interstitial"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BtnRwd" type="Button" parent="CanvasLayer"]
+margin_left = 358.499
+margin_top = 352.361
+margin_right = 469.499
+margin_bottom = 372.361
+rect_scale = Vector2( 3, 3 )
+disabled = true
+text = "Show Rewarded"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RewRtn" type="Label" parent="CanvasLayer"]
+margin_left = 314.301
+margin_top = 478.818
+margin_right = 444.301
+margin_bottom = 492.818
+rect_scale = Vector2( 3, 3 )
+text = "Reward Return Label"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="ShBtn" to="." method="_on_ShBtn_pressed"]
+[connection signal="toggled" from="CanvasLayer/BtnBan" to="." method="_on_BtnBan_toggled"]
+[connection signal="pressed" from="CanvasLayer/BtnInter" to="." method="_on_Btninter_pressed"]
+[connection signal="pressed" from="CanvasLayer/BtnRwd" to="." method="_on_BtnRwd_pressed"]
