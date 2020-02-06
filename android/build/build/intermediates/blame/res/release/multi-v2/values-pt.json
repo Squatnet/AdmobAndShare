@@ -4,7 +4,17 @@
             "outputFile": "H:\\GoDotProjects\\AdmobShareTest\\android\\build\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-pt\\values-pt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\squat\\.gradle\\caches\\transforms-2\\files-2.1\\4e21a3e7d58bceca5a64276ea3ee4f28\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\squat\\.gradle\\caches\\transforms-2\\files-2.1\\492828ee37541526b46a5351b63380da\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "75",
+                        "endOffsets": "126"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\squat\\.gradle\\caches\\transforms-2\\files-2.1\\81376a4f3df7dc8f9a18d13722feeeb4\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,16 +28,6 @@
                         "startOffsets": "131",
                         "endColumns": "100",
                         "endOffsets": "227"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\squat\\.gradle\\caches\\transforms-2\\files-2.1\\492828ee37541526b46a5351b63380da\\res\\values-pt\\values-pt.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "75",
-                        "endOffsets": "126"
                     }
                 }
             ]

@@ -19,6 +19,23 @@
                         "endColumns": "184",
                         "endOffsets": "285"
                     }
+                },
+                {
+                    "source": "C:\\Users\\squat\\.gradle\\caches\\transforms-2\\files-2.1\\81376a4f3df7dc8f9a18d13722feeeb4\\res\\values-as\\values-as.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "290",
+                        "endColumns": "100",
+                        "endOffsets": "386"
+                    }
                 }
             ]
         }

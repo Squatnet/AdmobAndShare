@@ -1,5 +1,5 @@
 -- Merging decision tree log ---
-provider#android.support.v4.content.FileProvider
+provider#androidx.core.content.FileProvider
 INJECTED from H:\GoDotProjects\AdmobShareTest\android\build\AndroidManifest.xml:65:7-73:18
 	android:grantUriPermissions
 		ADDED from H:\GoDotProjects\AdmobShareTest\android\build\AndroidManifest.xml:67:11-45
@@ -9,7 +9,7 @@ INJECTED from H:\GoDotProjects\AdmobShareTest\android\build\AndroidManifest.xml:
 	android:exported
 		ADDED from H:\GoDotProjects\AdmobShareTest\android\build\AndroidManifest.xml:68:11-35
 	android:name
-		ADDED from H:\GoDotProjects\AdmobShareTest\android\build\AndroidManifest.xml:66:11-65
+		ADDED from H:\GoDotProjects\AdmobShareTest\android\build\AndroidManifest.xml:66:11-60
 manifest
 ADDED from H:\GoDotProjects\AdmobShareTest\android\build\AndroidManifest.xml:2:1-78:12
 INJECTED from H:\GoDotProjects\AdmobShareTest\android\build\AndroidManifest.xml:2:1-78:12
@@ -17,21 +17,14 @@ INJECTED from H:\GoDotProjects\AdmobShareTest\android\build\AndroidManifest.xml:
 INJECTED from H:\GoDotProjects\AdmobShareTest\android\build\AndroidManifest.xml:2:1-78:12
 MERGED from [godot-lib.debug.aar] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\9b8492351db660160209371a04cd3770\AndroidManifest.xml:2:1-21:12
 MERGED from [com.google.android.gms:play-services-ads:16.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\2e5327962db0592be6f77cb870830ab3\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\40ad5a0d5a871791b06dd6e0463edef9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\81376a4f3df7dc8f9a18d13722feeeb4\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\c117e1c0e88cf9df3c09fe4c2d6ca0ac\AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.android.gms:play-services-gass:16.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\eca81dbb0ff91db4ae8be0f4af1fe41c\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\5eff6db77fcd495287d638e6a7e5879c\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\3c9bde39a4976c3bcc657cb4ff2ccea7\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\7b314f5398863581cd398a3d286a3489\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\a5e9eb179606c3b5ee43ac0b5aea0b66\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\7224018e513f463c67bc97872f6ef0e3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\4a9faf04eb97df05854666e655622c64\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\6b46f0b60d5a0443c246703ee7e9b556\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\4e21a3e7d58bceca5a64276ea3ee4f28\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\7739889649b36fac4f13c6c73763e5c5\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\9140895e9ace8bf4795cf102146f1989\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\469796a885f7c8b878d76593a4dcacf2\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\efca32716a457158f58cda1cd342d686\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\836534e3f7f3ceed6c7cb5a8a05bb0a6\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\31a7aeb7f9633e99fb2956dd4a5623ba\AndroidManifest.xml:17:1-22:12
 INJECTED from H:\GoDotProjects\AdmobShareTest\android\build\AndroidManifest.xml:2:1-78:12
 INJECTED from H:\GoDotProjects\AdmobShareTest\android\build\AndroidManifest.xml:2:1-78:12
 INJECTED from H:\GoDotProjects\AdmobShareTest\android\build\AndroidManifest.xml:2:1-78:12
@@ -73,6 +66,8 @@ application
 ADDED from H:\GoDotProjects\AdmobShareTest\android\build\AndroidManifest.xml:30:5-76:19
 MERGED from [godot-lib.debug.aar] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\9b8492351db660160209371a04cd3770\AndroidManifest.xml:17:5-19:19
 MERGED from [godot-lib.debug.aar] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\9b8492351db660160209371a04cd3770\AndroidManifest.xml:17:5-19:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\81376a4f3df7dc8f9a18d13722feeeb4\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\81376a4f3df7dc8f9a18d13722feeeb4\AndroidManifest.xml:22:5-89
 MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\c117e1c0e88cf9df3c09fe4c2d6ca0ac\AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\c117e1c0e88cf9df3c09fe4c2d6ca0ac\AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.android.gms:play-services-gass:16.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\eca81dbb0ff91db4ae8be0f4af1fe41c\AndroidManifest.xml:7:5-20
@@ -83,6 +78,10 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\User
 MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\3c9bde39a4976c3bcc657cb4ff2ccea7\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\7b314f5398863581cd398a3d286a3489\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\7b314f5398863581cd398a3d286a3489\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\836534e3f7f3ceed6c7cb5a8a05bb0a6\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\836534e3f7f3ceed6c7cb5a8a05bb0a6\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\81376a4f3df7dc8f9a18d13722feeeb4\AndroidManifest.xml:22:18-86
 	android:label
 		ADDED from H:\GoDotProjects\AdmobShareTest\android\build\AndroidManifest.xml:30:18-67
 	tools:ignore
@@ -159,8 +158,8 @@ MERGED from [godot-lib.debug.aar] C:\Users\squat\.gradle\caches\transforms-2\fil
 MERGED from [godot-lib.debug.aar] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\9b8492351db660160209371a04cd3770\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-ads:16.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\2e5327962db0592be6f77cb870830ab3\AndroidManifest.xml:21:5-23:62
 MERGED from [com.google.android.gms:play-services-ads:16.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\2e5327962db0592be6f77cb870830ab3\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\40ad5a0d5a871791b06dd6e0463edef9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\40ad5a0d5a871791b06dd6e0463edef9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\81376a4f3df7dc8f9a18d13722feeeb4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\81376a4f3df7dc8f9a18d13722feeeb4\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\c117e1c0e88cf9df3c09fe4c2d6ca0ac\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\c117e1c0e88cf9df3c09fe4c2d6ca0ac\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-gass:16.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\eca81dbb0ff91db4ae8be0f4af1fe41c\AndroidManifest.xml:5:5-44
@@ -171,24 +170,10 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\User
 MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\3c9bde39a4976c3bcc657cb4ff2ccea7\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\7b314f5398863581cd398a3d286a3489\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\7b314f5398863581cd398a3d286a3489\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\a5e9eb179606c3b5ee43ac0b5aea0b66\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\a5e9eb179606c3b5ee43ac0b5aea0b66\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\7224018e513f463c67bc97872f6ef0e3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\7224018e513f463c67bc97872f6ef0e3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\4a9faf04eb97df05854666e655622c64\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\4a9faf04eb97df05854666e655622c64\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\6b46f0b60d5a0443c246703ee7e9b556\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\6b46f0b60d5a0443c246703ee7e9b556\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\4e21a3e7d58bceca5a64276ea3ee4f28\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\4e21a3e7d58bceca5a64276ea3ee4f28\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\7739889649b36fac4f13c6c73763e5c5\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\7739889649b36fac4f13c6c73763e5c5\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\9140895e9ace8bf4795cf102146f1989\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\9140895e9ace8bf4795cf102146f1989\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\469796a885f7c8b878d76593a4dcacf2\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\469796a885f7c8b878d76593a4dcacf2\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\efca32716a457158f58cda1cd342d686\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\efca32716a457158f58cda1cd342d686\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\836534e3f7f3ceed6c7cb5a8a05bb0a6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\836534e3f7f3ceed6c7cb5a8a05bb0a6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\31a7aeb7f9633e99fb2956dd4a5623ba\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\squat\.gradle\caches\transforms-2\files-2.1\31a7aeb7f9633e99fb2956dd4a5623ba\AndroidManifest.xml:20:5-44
 INJECTED from H:\GoDotProjects\AdmobShareTest\android\build\AndroidManifest.xml
 INJECTED from H:\GoDotProjects\AdmobShareTest\android\build\AndroidManifest.xml
 	tools:overrideLibrary

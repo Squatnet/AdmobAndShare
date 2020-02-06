@@ -21,23 +21,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\squat\\.gradle\\caches\\transforms-2\\files-2.1\\4e21a3e7d58bceca5a64276ea3ee4f28\\res\\values-da\\values-da.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "11",
-                        "startColumns": "4",
-                        "startOffsets": "972",
-                        "endColumns": "100",
-                        "endOffsets": "1068"
-                    }
-                },
-                {
                     "source": "C:\\Users\\squat\\.gradle\\caches\\transforms-2\\files-2.1\\9b8492351db660160209371a04cd3770\\res\\values-da\\values-da.xml",
                     "from": {
                         "startLines": "2",
@@ -52,6 +35,23 @@
                         "startOffsets": "291",
                         "endColumns": "75",
                         "endOffsets": "362"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\squat\\.gradle\\caches\\transforms-2\\files-2.1\\81376a4f3df7dc8f9a18d13722feeeb4\\res\\values-da\\values-da.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "972",
+                        "endColumns": "100",
+                        "endOffsets": "1068"
                     }
                 },
                 {

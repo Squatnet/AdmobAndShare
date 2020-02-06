@@ -176,15 +176,14 @@ document.getElementById(id).style.display = 'none';
       <span class="mdl-layout-title">Lint Report: 3 warnings</span>
       <div class="mdl-layout-spacer"></div>
       <nav class="mdl-navigation mdl-layout--large-screen-only">
-Check performed at Mon Feb 03 18:00:05 GMT 2020      </nav>
+Check performed at Thu Feb 06 14:51:05 GMT 2020      </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Issue Types</span>
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link" href="#overview"><i class="material-icons">dashboard</i>Overview</a>
-      <a class="mdl-navigation__link" href="#GradleDependency"><i class="material-icons warning-icon">warning</i>Obsolete Gradle Dependency (1)</a>
-      <a class="mdl-navigation__link" href="#GradleDynamicVersion"><i class="material-icons warning-icon">warning</i>Gradle Dynamic Version (1)</a>
+      <a class="mdl-navigation__link" href="#GradleDependency"><i class="material-icons warning-icon">warning</i>Obsolete Gradle Dependency (2)</a>
       <a class="mdl-navigation__link" href="#HardwareIds"><i class="material-icons warning-icon">warning</i>Hardware Id Usage (1)</a>
     </nav>
   </div>
@@ -201,11 +200,8 @@ Check performed at Mon Feb 03 18:00:05 GMT 2020      </nav>
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Correctness">Correctness</a>
 </td></tr>
 <tr>
-<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
+<td class="countColumn">2</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
 <a href="#GradleDependency">GradleDependency</a>: Obsolete Gradle Dependency</td></tr>
-<tr>
-<td class="countColumn">1</td><td class="issueColumn"><i class="material-icons warning-icon">warning</i>
-<a href="#GradleDynamicVersion">GradleDynamicVersion</a>: Gradle Dynamic Version</td></tr>
 <tr><td class="countColumn"></td><td class="categoryColumn"><a href="#Security">Security</a>
 </td></tr>
 <tr>
@@ -234,7 +230,16 @@ Dismiss</button>            </div>
 <span class="lineno">  43 </span>    }
 <span class="lineno">  44 </span><span class="comment">//CHUNK_DEPENDENCIES_BEGIN</span>
 <span class="caretline"><span class="lineno">  45 </span><span class="warning">api (<span class="string">'com.google.android.gms:play-services-ads:16.0.0'</span>) { exclude group: <span class="string">'com.android.support'</span> }</span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  46 </span>api (<span class="string">'com.android.support:support-v4:27.+'</span>)
+<span class="lineno">  46 </span>api (<span class="string">'androidx.core:core:1.0.0'</span>)
+<span class="lineno">  47 </span><span class="comment">//CHUNK_DEPENDENCIES_END</span>
+<span class="lineno">  48 </span>}
+</pre>
+
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:46</span>: <span class="message">A newer version of androidx.core:core than 1.0.0 is available: 1.2.0</span><br /><pre class="errorlines">
+<span class="lineno">  43 </span>    }
+<span class="lineno">  44 </span><span class="comment">//CHUNK_DEPENDENCIES_BEGIN</span>
+<span class="lineno">  45 </span>api (<span class="string">'com.google.android.gms:play-services-ads:16.0.0'</span>) { exclude group: <span class="string">'com.android.support'</span> }
+<span class="caretline"><span class="lineno">  46 </span><span class="warning">api (<span class="string">'androidx.core:core:1.0.0'</span>)</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 <span class="lineno">  47 </span><span class="comment">//CHUNK_DEPENDENCIES_END</span>
 <span class="lineno">  48 </span>}
 </pre>
@@ -264,51 +269,6 @@ To suppress this error, use the issue id "GradleDependency" as explained in the 
               <div class="mdl-card__actions mdl-card--border">
 <button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationGradleDependencyLink" onclick="reveal('explanationGradleDependency');">
 Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="GradleDependencyCardLink" onclick="hideid('GradleDependencyCard');">
-Dismiss</button>            </div>
-            </div>
-          </section><a name="GradleDynamicVersion"></a>
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp" id="GradleDynamicVersionCard" style="display: block;">
-            <div class="mdl-card mdl-cell mdl-cell--12-col">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Gradle Dynamic Version</h2>
-  </div>
-              <div class="mdl-card__supporting-text">
-<div class="issue">
-<div class="warningslist">
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:46</span>: <span class="message">Avoid using + in version numbers; can lead to unpredictable and unrepeatable builds (com.android.support:support-v4:27.+)</span><br /><pre class="errorlines">
-<span class="lineno">  43 </span>    }
-<span class="lineno">  44 </span><span class="comment">//CHUNK_DEPENDENCIES_BEGIN</span>
-<span class="lineno">  45 </span>api (<span class="string">'com.google.android.gms:play-services-ads:16.0.0'</span>) { exclude group: <span class="string">'com.android.support'</span> }
-<span class="caretline"><span class="lineno">  46 </span><span class="warning">api (<span class="string">'com.android.support:support-v4:27.+'</span>)</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  47 </span><span class="comment">//CHUNK_DEPENDENCIES_END</span>
-<span class="lineno">  48 </span>}
-</pre>
-
-</div>
-<div class="metadata"><div class="explanation" id="explanationGradleDynamicVersion" style="display: none;">
-Using <code>+</code> in dependencies lets you automatically pick up the latest available version rather than a specific, named version. However, this is not recommended; your builds are not repeatable; you may have tested with a slightly different version than what the build server used. (Using a dynamic version as the major version number is more problematic than using it in the minor version position.)<br/>Note: This issue has an associated quickfix operation in Android Studio and IntelliJ IDEA.<br>
-To suppress this error, use the issue id "GradleDynamicVersion" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
-<br/></div>
-</div>
-</div>
-<div class="chips">
-<span class="mdl-chip">
-    <span class="mdl-chip__text">GradleDynamicVersion</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Correctness</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Warning</span>
-</span>
-<span class="mdl-chip">
-    <span class="mdl-chip__text">Priority 4/10</span>
-</span>
-</div>
-              </div>
-              <div class="mdl-card__actions mdl-card--border">
-<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="explanationGradleDynamicVersionLink" onclick="reveal('explanationGradleDynamicVersion');">
-Explain</button><button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="GradleDynamicVersionCardLink" onclick="hideid('GradleDynamicVersionCard');">
 Dismiss</button>            </div>
             </div>
           </section>

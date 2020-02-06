@@ -63,7 +63,7 @@
             android:name="com.google.android.gms.ads.AD_MANAGER_APP"
             android:value="true"/>
       <provider
-          android:name="android.support.v4.content.FileProvider"
+          android:name="androidx.core.content.FileProvider"
           android:grantUriPermissions="true"
           android:exported="false"
           android:authorities="${applicationId}">
@@ -76,6 +76,16 @@
     </application>
 
 </manifest>
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\squat\\.gradle\\caches\\transforms-2\\files-2.1\\81376a4f3df7dc8f9a18d13722feeeb4\\res\\values-pl\\values-pl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "996",
+                        "endColumns": "100",
+                        "endOffsets": "1092"
+                    }
+                },
+                {
                     "source": "C:\\Users\\squat\\.gradle\\caches\\transforms-2\\files-2.1\\2e5327962db0592be6f77cb870830ab3\\res\\values-pl\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10",
@@ -52,23 +69,6 @@
                         "startOffsets": "105",
                         "endColumns": "198",
                         "endOffsets": "299"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\squat\\.gradle\\caches\\transforms-2\\files-2.1\\4e21a3e7d58bceca5a64276ea3ee4f28\\res\\values-pl\\values-pl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "11",
-                        "startColumns": "4",
-                        "startOffsets": "996",
-                        "endColumns": "100",
-                        "endOffsets": "1092"
                     }
                 }
             ]

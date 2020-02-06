@@ -4,23 +4,6 @@
             "outputFile": "H:\\GoDotProjects\\AdmobShareTest\\android\\build\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-am\\values-am.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\squat\\.gradle\\caches\\transforms-2\\files-2.1\\4e21a3e7d58bceca5a64276ea3ee4f28\\res\\values-am\\values-am.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "861",
-                        "endColumns": "100",
-                        "endOffsets": "957"
-                    }
-                },
-                {
                     "source": "C:\\Users\\squat\\.gradle\\caches\\transforms-2\\files-2.1\\2e5327962db0592be6f77cb870830ab3\\res\\values-am\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10",
@@ -35,6 +18,23 @@
                         "startOffsets": "296,366,474,540,610,690,788",
                         "endColumns": "69,107,65,69,79,97,72",
                         "endOffsets": "361,469,535,605,685,783,856"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\squat\\.gradle\\caches\\transforms-2\\files-2.1\\81376a4f3df7dc8f9a18d13722feeeb4\\res\\values-am\\values-am.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "861",
+                        "endColumns": "100",
+                        "endOffsets": "957"
                     }
                 },
                 {

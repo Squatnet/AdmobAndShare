@@ -30,7 +30,7 @@
     <string name="state_paused_wifi_disabled">와이파이가 비활성화 되어 다운로드가 일시정지 되었습니다.</string>
     <string name="state_paused_wifi_unavailable">와이파이가 사용하능하지 않아 다운로드가 일시정지 되었습니다.</string>
     <string name="state_unknown">시작중…</string>
-    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="text_button_cancel">취소</string>
     <string name="text_button_cancel_verify">파일 확인 취소</string>
     <string name="text_button_pause">다운로드 일시정지</string>

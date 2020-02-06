@@ -43,7 +43,7 @@ dependencies {
     }
 //CHUNK_DEPENDENCIES_BEGIN
 api ('com.google.android.gms:play-services-ads:16.0.0') { exclude group: 'com.android.support' }
-api ('com.android.support:support-v4:27.+')
+api ('androidx.core:core:1.0.0')
 //CHUNK_DEPENDENCIES_END
 }
 
@@ -124,6 +124,16 @@ android {
 
 //CHUNK_GLOBAL_BEGIN
 //CHUNK_GLOBAL_END
+
+
+
+
+
+
+
+
+
+
 
 
 
